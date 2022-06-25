@@ -17,6 +17,11 @@ Created Using
 4. MongoDB
 5. Bootstrap
 
-ScreenShots 
+ScreenShots (incase you are using phone.)
+![home](https://github.com/ranjitodedra/Aesthetic-Fox/blob/main/Frontend/src/images/home.png)
+![about](https://github.com/ranjitodedra/Aesthetic-Fox/blob/main/Frontend/src/images/about_ui.png)
+![cards](https://github.com/ranjitodedra/Aesthetic-Fox/blob/main/Frontend/src/images/cards.png)
+![contact](https://github.com/ranjitodedra/Aesthetic-Fox/blob/main/Frontend/src/images/contact_ui.png)
+![Footer](https://github.com/ranjitodedra/Aesthetic-Fox/blob/main/Frontend/src/images/footer.png)
   
 > you can use my code ask me if you face any kind of defficulties.
