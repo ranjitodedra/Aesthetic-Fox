@@ -1,0 +1,47 @@
+import './App.css';
+import About from './components/About';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import Services from './components/Services';
+import { Routes, Route, Navigate } from "react-router-dom";
+import Login from './components/Login';
+import Register from './components/Register';
+import Dashboard from './components/Dashboard';
+import Logout from './components/Logout';
+import Protectedroute from './ProtectedRoute';
+import Pr from './pr';
+
+function App() {
+  return (
+    <>
+      <Navbar />
+      {
+        window.alert(Pr)
+      }
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+
+        {/* <Route path="/login" element={<Login />} /> */}
+        {/* <Pr path="/login" element={<Login />}/> */}
+
+        {/* <Protectedroute exact path="/login" component={Login} auth={true}/> */}
+
+
+        {/*<Protectedroute exact path="/register" component={Register} auth={true}/>
+        <Protectedroute exact path="/dashboard" component={Dashboard} auth={true}/>
+        <Protectedroute exact path="/logout" component={Logout} auth={true}/> */}
+
+        <Route path="/" element={<Navigate replace to="/home" />} />
+      </Routes>
+      <Footer />
+    </>
+
+  );
+}
+
+export default App;
